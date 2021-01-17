@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Courier New", Courier;
+}
+
+.content {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.linkOutButton {
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  box-shadow: 0 5px gray;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: .05em;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  transition: 250ms;
+  margin-left: 5px;
+  background-color: #3c3c3c;
+}
+
+.linkOutButton:hover {
+  background-color: #646464;
+}
+
+.linkOutButton:active {
+  box-shadow: 0 2px #313131;
+  transform: translateY(4px);
+}
+
+.projectSection {
+  padding: 25px 25%;
+  min-height: 100vh;
+  text-align: left;
+  font-size: 18px;
+  padding-bottom: 100px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.separator {
+  width: 50%;
+  text-align: left;
+  margin-left: 0;
+  border: .6px solid #3c3c3c;
+}
+
+.projectSection h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.projectSection h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.technicalSheet ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-top: 20px;
+}
+
+.bottomInfo {
+  margin-top: 160px;
+  margin-bottom: 23px;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+  bottom: 0;
+}
