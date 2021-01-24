@@ -37,7 +37,17 @@
           <h2>Project Description</h2>
           <hr class="separator">
           <span>
-            Flocking simulation, originally implemented in p5.js, later rewritten in c++ and openFrameworks for improved performance
+            Passive agents' movement is calculated based on weighting between: desire to locate and eat food, avoid threats, and flocking patterns (alignment, cohesion, separation).
+            <br> <br>
+            Aggressive agents' movement is similar to the passive agents, but instead searches for passive cells as food, and doesn't avoid threats.
+            <br> <br>
+            Food cells are spawned at a fixed rate, and move using a random walk.
+            <br> <br>
+            All agents will age and gradually lose mass, proportionally to their current mass (the larger the mass, the more food it requires).
+            <br> <br>
+            Hovering over an agent will show its type and properties about it.
+            <br> <br> <br> <br>
+            Originally implemented in p5.js, later rewritten in c++ and openFrameworks using a more optimised object-oriented approach for improved performance.
           </span>
         </div>
 
